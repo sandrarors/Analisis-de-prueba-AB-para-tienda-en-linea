@@ -1,4 +1,4 @@
-# Proyecto de pruebas AB 🆎
+# Proyecto de pruebas A/B 🆎
 
 ## 📌 Descripción
 El objetivo de est proyecto consta de dos partes:
@@ -13,3 +13,5 @@ El objetivo de est proyecto consta de dos partes:
 - Python 3.10+
 - Jupyter Notebook
 - Pandas# Pruebas_AB
+
+#### Este proyecto fue desarrollado como parte de una actividad académica.
