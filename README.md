@@ -1,17 +1,19 @@
-# Proyecto de pruebas A/B 🆎
+# Análisis de prueba A/B para tienda en línea 🆎
 
 ## 📌 Descripción
-El objetivo de est proyecto consta de dos partes:
-
-1) Verificar si la introducción del nuevo sistema de recomendaciones mejoró la conversión en las etapas del embudo: 
-  - Vistas de la página del producto (product_page)
-  - Agregar artículos al carrito (product_card)
-  - Compras realizadas (purchase)
-2) Comprobar si cada etapa muestra al menos un 10% de aumento en la conversión dentro de los 14 días posteriores al registro. 📈
+Como parte de un ejercicio analítico, retomé el análisis de una prueba A/B iniciada por un equipo anterior en una tienda en línea internacional. El objetivo era evaluar el impacto de un nuevo sistema de recomendaciones en el comportamiento de compra de nuevos usuarios de la región de la UE.
+- Diseñé y ejecuté el análisis de una prueba A/B (recommender_system_test) orientada a evaluar la efectividad de un nuevo sistema de recomendaciones en una tienda en línea con usuarios de la UE.
+- Procesé y limpié múltiples datasets que incluían eventos de usuario, información de participantes y campañas de marketing, identificando valores nulos, duplicados y usuarios en ambos grupos de prueba.
+- Realicé análisis exploratorio de datos (EDA), estudiando conversiones a través del embudo: visualización de productos, añadir al carrito y compra.
+- Evalué el impacto del nuevo sistema en métricas clave mediante pruebas estadísticas (prueba Z), verificando si existían mejoras significativas (≥10%) en cada etapa del embudo.
+- Concluí con insights sobre la validez de la prueba, distribuciones de eventos y recomendaciones para futuras pruebas A/B.
 
 ## 🛠 Requisitos
 - Python 3.10+
 - Jupyter Notebook
-- Pandas# Pruebas_AB
+- Pandas
+- Matplotlib
+- Estadística
+- Pruebas A/B
 
 #### Este proyecto fue desarrollado como parte de una actividad académica.
